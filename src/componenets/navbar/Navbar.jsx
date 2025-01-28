@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/Shopsy_logo.png'
+import logo from '../../assets/shopsylogo.png'
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from 'react-icons/fa6';
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className='bg-orange-300'>
                 <div className='container justify-between items-center flex '>
                     <div>
-                        <a href="" className='font-bold text-3xl flex gap-4 font-serif justify-center items-center '><img src={logo} alt="logo" className='w-[70px] h-[60px] m-1 border-orange-800 rounded-full ' />Shopsy</a>
+                        <a href="" className='font-bold text-3xl flex gap-2 font-serif justify-center items-center '><img src={logo} alt="logo" className='w-[70px] h-[60px] m-1 border-orange-800 rounded-full ' />Shopsy</a>
                     </div>
 
                     {/* seacrch bar */}
