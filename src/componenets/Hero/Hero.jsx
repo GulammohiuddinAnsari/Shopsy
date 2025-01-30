@@ -51,11 +51,23 @@ export default function Hero() {
           <div>
             <div className='grid grid-cols-1 sm:grid-cols-2 transition-shadow'>
               <div className='flex flex-col justify-center gap-4 sm:text-left order-2 sm:order-1 text-center relative z-10'>
-                <h1 className='text-5xl sm:text-7xl font-bold'>{data.title}</h1>
-                <p>
+                <h1 
+                data-aos='zoom-out'
+                data-aos-duration='500'
+                data-aso-once='true'
+                className='text-5xl sm:text-7xl font-bold'>{data.title}</h1>
+                <p 
+                data-aos='zoom-out'
+                data-aos-duration='500'
+                data-aso-once='true'
+                >
                   {data.description}
                 </p>
-                <div>
+                <div
+                data-aos='zoom-out'
+                data-aos-duration='500'
+                data-aso-once='true'
+                >
                   <button className=' hover:scale-105 text-white rounded-full py-2 px-3 bg-orange-500'>Order Now</button>
                 </div>
               </div>
