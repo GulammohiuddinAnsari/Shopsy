@@ -57,7 +57,7 @@ function Topproducts() {
                 >
                     {
                         ProductsData.map((data) => (
-                            <div>
+                            <div data-aos="zoom-in ">
                                 <div
                                     data-aos='fade-up'
                                     data-aos-delay={data.aosDelay}
@@ -75,7 +75,9 @@ function Topproducts() {
                                     </div>
                                     <h3 className='font-semibold'>{data.title} </h3>
                                     <p className='text-sm text-gray-700'>{data.description}</p>
-
+                                    <button className='bg-orange-400 rounded-full mt-4 hover:scale-105 py-1 px-4 text-white '>
+                                        Order Now
+                                    </button>
                                 </div>
                             </div>
                         ))
