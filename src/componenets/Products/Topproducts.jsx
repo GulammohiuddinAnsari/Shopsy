@@ -62,7 +62,7 @@ function Topproducts() {
                                     data-aos='fade-up'
                                     data-aos-delay={data.aosDelay}
                                     key={data.id} className='space-y-3'>
-                                    <img src={data.img} alt="" className='h-[220px] w-[220px] object-cover rounded-md mx-auto shadow-black border-black-400 mt-10 ' />
+                                    <img src={data.img} alt="" className='h-[220px] w-[220px] object-cover rounded-md mx-auto border-2 border-black  mt-10 ' />
                                 </div>
                                 <div className='text-center'>
                                     <div className='flex items-center justify-center gap-1 mt-4'>

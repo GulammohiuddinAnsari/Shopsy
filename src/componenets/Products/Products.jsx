@@ -50,7 +50,7 @@ const ProductsDate = [
 ]
 function Products() {
   return (
-    <div className='mb-12'>
+    <div className='mb-12 mt-[-20px]'>
       <div className='container'>
         <div className='mb-10 text-center max-w-[650px] mx-auto'>
           <p data-aos='fade-up' className='text-sm text-red-400'>Top Selling Products For You</p>

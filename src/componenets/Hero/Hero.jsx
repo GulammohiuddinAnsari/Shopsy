@@ -41,7 +41,7 @@ export default function Hero() {
 
   }
   return (
-    <div className='relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex justify-center items-center bg-grey-100'>
+    <div className='relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex justify-center items-center bg-grey-100 '>
       <div className='h-[700px] w-[700px] rounded-3xl absolute rotate-45 -z-10 right-[22%] bg-orange-300 -top-[70%] '></div>
 
       <div className='container pb-8 sm:pb-0'>
